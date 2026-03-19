@@ -25,4 +25,6 @@ def addition(a,b):
     c = a + b
     return c
 
-
+def modulas(a,b):
+    c = a % b
+    return c
