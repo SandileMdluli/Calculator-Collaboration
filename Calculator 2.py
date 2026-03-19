@@ -30,6 +30,7 @@ def modulas(a,b):
     return c
 
 if choose == 1:
+<<<<<<< HEAD
     print(multiply(num1,num2))
 elif choose ==2:
     print(division(num1,num2))
@@ -39,3 +40,6 @@ elif choose ==4:
     print(addition(num1,num2)) 
 elif choose ==5:
     print(modulas(num1, num2))
+=======
+     
+>>>>>>> 2e3531eff5759b883774d3a87b5c2c5fd838ff68
