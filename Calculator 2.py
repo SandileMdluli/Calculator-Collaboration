@@ -4,10 +4,10 @@
 greet = "Welcome to THE Calculator"
 print(greet)
 
-number_1 = float(input("Enter a number:"))
-number_2 = float(input("Enter a number:"))
+num1 = float(input("Enter a number:"))
+num2 = float(input("Enter a number:"))
 
-choose = int(input("What operation do you want to use"))\
+choose = int(input("What operation do you want to use"))
 
 def multiply(a,b):
     c = a * b
@@ -28,3 +28,14 @@ def addition(a,b):
 def modulas(a,b):
     c = a % b
     return c
+
+if choose == 1:
+    print(multiply(num1,num2))
+elif choose ==2:
+    print(division(num1,num2))
+elif choose ==3:
+    print(subtraction(num1,num2))
+elif choose ==4:
+    print(addition(num1,num2)) 
+elif choose ==5:
+    print(modulas(num1, num2))
