@@ -29,4 +29,5 @@ def modulas(a,b):
     c = a % b
     return c
 
-if 
+if choose == 1:
+     
