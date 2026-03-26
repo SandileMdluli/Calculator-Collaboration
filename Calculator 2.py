@@ -5,6 +5,8 @@
 greet = "Welcome to THE Calculator"
 print(greet)
 
+menu = "1.multiply 2.division 3.subtraction 4.addition 5.modulas"
+print(menu)
 #User enters number
 num1 = float(input("Enter a number:"))
 num2 = float(input("Enter a number:"))
