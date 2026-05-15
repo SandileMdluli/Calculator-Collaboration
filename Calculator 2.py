@@ -27,7 +27,7 @@ def division(a,b):
 
 #Subtraction function
 def subtraction(a,b):
-    c = a * b
+    c = a - b
     return c
 
 #Addition Function
