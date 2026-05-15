@@ -53,3 +53,4 @@ elif choose ==5:
     print(modulas(num1, num2))
 
 #67
+#This calculator works great and it is the best
