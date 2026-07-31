@@ -40,7 +40,12 @@ def modulas(a,b):
     c = a % b
     return c
 
-#Mbuso did IF to operate the calculator
+#Mbuso did IF to operate the calculator 
+#I used the if choose because Sandile define the variable choose,
+#This helps as you can see below we said if choose == 1, this means that if the user chose
+# 1 when asked what operator to use it will multiply num1 and 2. if you chose elif choose ==2 this means
+# that if the user chose 2 when asked what operator to use it will divide num1 and num2. 
+
 if choose == 1:
     print(multiply(num1,num2))
 elif choose ==2:
@@ -51,5 +56,6 @@ elif choose ==4:
     print(addition(num1,num2)) 
 elif choose ==5:
     print(modulas(num1, num2))
+
 
 #67
