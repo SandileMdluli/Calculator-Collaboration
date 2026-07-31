@@ -27,7 +27,7 @@ def division(a,b):
 
 #Subtraction function
 def subtraction(a,b):
-    c = a * b
+    c = a - b
     return c
 
 #Addition Function
@@ -57,5 +57,10 @@ elif choose ==4:
 elif choose ==5:
     print(modulas(num1, num2))
 
+<<<<<<< HEAD
 
 #67
+=======
+#67
+#This calculator works great and it is the best
+>>>>>>> fa7712c5bd5109c462043389c4c7c344421379d4
